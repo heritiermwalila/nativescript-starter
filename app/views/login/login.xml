@@ -1,0 +1,9 @@
+<Page loaded="onLoaded">
+    <StackLayout orientation="vertical">
+    <Image src="res://logo" horizontalAlignment="center" stretch="none"/>
+        <TextField hint="Enter your email" autocorrect="false" keyboardType="email" autocapitalizationType="none"/>
+        <TextField hint="Password" secure="true"/>
+        <Button text="Login" tap="onLogin"/>
+        <Button text="Register" class="link" tap="onRegister"/>
+    </StackLayout>
+</Page>

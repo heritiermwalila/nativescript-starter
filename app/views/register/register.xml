@@ -1,0 +1,11 @@
+<Page>
+    <StackLayout>
+        <Label text="Register your account" class="title"/>
+        <TextField hint="First name" autocorrect="false" autocapitalizationType="none"/>
+        <TextField hint="Last name" autocorrect="false" autocapitalizationType="none"/>
+        <TextField hint="Email address" autocorrect="false" autocapitalizationType="none" keyboardType="email"/>
+        <TextField hint="Password" secure="true"/>
+        <Button text="Register"/>
+        <Button text="Login" tap="goLogin"/>
+    </StackLayout>
+</Page>
